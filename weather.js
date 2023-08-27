@@ -5,8 +5,6 @@ const MinTemp = document.getElementById('min-temp');
 const MaxTemp = document.getElementById('max-temp');
 const SearchButton = document.getElementById('searchbutton');
 const CityInput = document.getElementById('city-input');
-let API_KEY = 'a8e71c9932b20c4ceb0aed183e6a83bb';
-const URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 getWeatherData = async (city) => {
 	const url = `https://open-weather13.p.rapidapi.com/city`;
