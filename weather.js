@@ -32,6 +32,7 @@ const searchCity = (name) => {
 };
 
 SearchButton.onclick = () => searchCity(CityInput.value);
+// SearchButton.addEventListener('click', searchCity(CityInput.value));
 
 const showWeatherData = (weatherData) => {
 	CityName.innerHTML = `${weatherData.name}`;
